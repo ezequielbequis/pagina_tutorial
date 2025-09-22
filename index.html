@@ -1,34 +1,57 @@
-<!DOCTYPE html> <!-- Le dice al navegador que usás HTML5 -->
-<html lang="es"> <!-- Elemento raíz, define el idioma -->
+<!DOCTYPE html>
+<!-- Le dice al navegador que usás HTML5 -->
+<html lang="es">
+<!-- Elemento raíz, define el idioma -->
 <head>
-    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajuste para media queries -->
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"> <!-- Ícono de la pestaña -->
-    <title>Apuntes</title> <!-- Título que aparece en la pestaña -->
+    <!-- Codificación de caracteres -->
+    <meta charset="UTF-8" />
+    <!-- Ajuste para media queries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Descripción del sitio -->
+    <meta
+        name="description"
+        content="Apuntes de contenido relacionado a programacion"
+    />
+    <!-- Palabras clave para motores de búsqueda -->
+    <meta name="keywords" content="HTML, CSS, JavaScript, Programacion" />
+    <!-- Ícono de la pestaña -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <!-- Enlace a archivo CSS externo -->
+    <link rel="stylesheet" href="css/estilos.css" />
+    <!-- Título que aparece en la pestaña -->
+    <title>Apuntes</title>
+    <!--Estilos desde HTML-->
+    <style>
+      /* Importar fuente desde Google Fonts */
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
 </head>
 <body>
     <!-- Aca va todo el contenido visible -->
 
-     <!-- Header | Encabezado de la pagina-->
+    <!-- Header | Encabezado de la pagina-->
     <header>
-        <h1>Hola, Mundo!</h1> <!-- Título principal --> 
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="CSS.html">CSS</a></li>
+                <li><a href="JavaScript.html">JavaScript</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main | Contenido principal -->
-    <main> 
-        <p>Este es un párrafo de ejemplo.</p> <!-- Párrafo de texto -->
-        <a href="https://www.ejemplo.com">Visitar Ejemplo.com</a> <!-- Enlace -->
-        <img src="img/tumblr_mt8q5co2VD1s9n27to1_400.gif" alt="" width="100%"> <!-- Imagen con ruta relativa -->
-        <img src="img/tumblr_mt8q5co2VD1s9n27to1_400.gif" alt="" width="100%"> <!-- Imagen con ruta relativa -->
-        <img src="img/tumblr_mt8q5co2VD1s9n27to1_400.gif" alt="" width="100%"> <!-- Imagen con ruta relativa -->
-        <img src="img/tumblr_mt8q5co2VD1s9n27to1_400.gif" alt="" width="100%"> <!-- Imagen con ruta relativa -->
-        <img src="img/tumblr_mt8q5co2VD1s9n27to1_400.gif" alt="" width="100%"> <!-- Imagen con ruta relativa -->
-        <img src="img/tumblr_mt8q5co2VD1s9n27to1_400.gif" alt="" width="100%"> <!-- Imagen con ruta relativa -->
-    </main> 
+    <main>
+        <p>Este es un párrafo de ejemplo.</p>
+        <!-- Párrafo de texto -->
+        <a href="https://www.ejemplo.com">Visitar Ejemplo.com</a>
+        <!-- Enlace -->
+    </main>
 
     <!-- Footer | Pie de página -->
     <footer>
-        <p>Pie de página</p> <!-- Información del pie de página -->
+        <p>Pie de página</p>
+        <!-- Información del pie de página -->
     </footer>
 </body>
 </html>

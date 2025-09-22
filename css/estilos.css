@@ -1,0 +1,44 @@
+/* Reset de márgenes y paddings para todas las paginas */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1b1b1b;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;   /* opcional */
+  font-weight: 400;            /* reemplaza <weight> */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Contenedor principal de la barra */
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  display: flex;
+  font-size: 18px;
+}
+
+/* Lista de enlaces */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #858585; /* color al pasar el mouse */
+}
